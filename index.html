@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar flex-row">
+        <div class="nav-con flex-row">
+            <div class="con-logo">
+                <p>Wigierki</p>
+            </div>
+
+
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Strona główna</a>
+                <a href="#onas" class="nav-link">O nas</a>
+                <a href="#pokoje" class="nav-link">Pokoje</a>
+                <!-- <a href="#cennik" class="nav-link">Cennik</a> -->
+                <a href="#lokalizacja" class="nav-link">Lokalizacja</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#kontakt" class="nav-link">Kontakt</a>
+
+
+            </div>
+            <div class="hamburger" style="color: black;">=</div>
+
+        </div>
+    </nav>
+
+
+    <section class="home " id="home">
+        <div class="home-image parallax-js"></div>
+        <div class="flex-column center t-center">
+            <h1 style="color: white; font-weight: 700; ">Pokoje do wynajęcia</h1>
+            <h2 style="color: white;">nad Jeziorem Wigry</h2>
+            <p style="color: white;">Odkryj idealne miejsce na wypoczynek na terenie Wigierskiego<br>Parku Narodowego
+                tuż przy jeziorze Wigry</p>
+            <a href="#" class="btn">Zobacz pokoje</a>
+        </div>
+    </section>
+
+    <section class="onas topy-p flex-column center" id="onas">
+        <div class="onas-container boki-m topy-m center">
+            <h2 class="">O nas</h2>
+            <hr class="hr3">
+            <div class="onas-split flex-row">
+
+                <img src="w_dom2.webp" alt="">
+                <div>
+                    <p>Pokoje nad jeziorem Wigry we wsi Gawrych-Ruda.
+                        Oferujemy trzy pokoje: pokój numer jeden, pokój numer dwa i pokój numer trzy.</p>
+                    <p>Przed domem idealne miejsce do odpoczywania - ogródek z miejscem
+                        do leżakowania bądź odpoczynku w cieniu na łonie natury. Możliwość
+                        zrobienia grilla!</p>
+                    <p>Przed płotem nieopodal miejsce z małą plażą, mostem i dostępem do
+                        wody. Można też wypożyczyć kajak do pływania.</p>
+                </div>
+            </div>
+
+    </section>
+    <section class="pokoje flex-column topy-p" id="pokoje">
+
+        <!-- dom1 -->
+        <div class="container center nflex-column">
+            <h2 class="pokoje-title">Nasze pokoje</h2>
+            <hr class="hr3">
+            <!-- Tutaj można dać mini sekcje z tekstem -->
+            <!-- tak by bylo rozpisane co jest w pokojach, co jest dostępne -->
+            <!-- w cenie, za co trzeba dopłacić jeśli będzie ktoś chciał coś dodatkowo -->
+            <div class="pokoje-container center flex-row">
+                <div>
+                    <!-- <h3 style="color: black;">Pokój pierwszy</h3> -->
+
+                    <div class="cennik-box">
+                        <h3>Pokój pierwszy</h3>
+
+                        <div class="cennik-mini flex-row">
+                            <h3>220zł</h3>
+                            <h4>/noc</h4>
+                        </div>
+                        <ul>
+                            <li>4 osobowy</li>
+                            <li>łazienka</li>
+                            <li>kuchenka</li>
+                            <li>okna od wschodu</li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+                <img src="w_pokoj1.jpg" id="main" alt="">
+
+            </div>
+            <!-- <hr style="margin-top: 40px;"> -->
+
+            <div class="pokoje-container flex-row">
+                <div class="left w100">
+                    <h3>Galeria zdjęć</h3>
+                    <div class="pokoje-mini flex-row">
+                        <img src="w_pokoj1.jpg" alt="" onclick="changeImage(this)">
+                        <img src="w_pokoj2.jpg" alt="" onclick="changeImage(this)">
+                        <img src="w_pokoj3.jpg" alt="" onclick="changeImage(this)">
+                        <img src="w_pokoj4.jpg" alt="" onclick="changeImage(this)">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <hr style="margin: 40px 0px;">
+
+
+            <!-- dom2 -->
+
+            <div class="pokoje-container center flex-row">
+                <div>
+                    <!-- <h3 style="color: black;">Pokój pierwszy</h3> -->
+
+                    <div class="cennik-box">
+                        <h3>Pokój drugi</h3>
+
+                        <div class="cennik-mini flex-row">
+                            <h3>200zł</h3>
+                            <h4>/noc</h4>
+                        </div>
+                        <ul>
+                            <li>3 osobowy max</li>
+                            <li>łazienka<br>
+                                (na korytarzu) </li>
+                            <li>kuchenka</li>
+                            <li>okna od strony<br>południowej</li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+                <img src="w_pokoj4.jpg" alt="">
+
+            </div>
+            <!-- <hr style="margin-top: 40px;"> -->
+
+            <div class="pokoje-container flex-row">
+                <div class="left w100">
+                    <h3>Galeria zdjęć</h3>
+                    <div class="pokoje-mini flex-row">
+                        <img src="w_pokoj1.jpg" alt="">
+                        <img src="w_pokoj1.jpg" alt="">
+                        <img src="w_pokoj1.jpg" alt="">
+                        <img src="w_pokoj1.jpg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <hr style="margin: 40px 0px;">
+
+            <!-- dom3 -->
+
+            <div class="pokoje-container center flex-row">
+                <div>
+                    <!-- <h3 style="color: black;">Pokój pierwszy</h3> -->
+
+                    <div class="cennik-box">
+                        <h3>Pokój trzeci</h3>
+
+                        <div class="cennik-mini flex-row">
+                            <h3>220zł</h3>
+                            <h4>/noc</h4>
+                        </div>
+                        <ul>
+                            <li>4 osobowy</li>
+                            <li>łazienka</li>
+                            <li>kuchenka</li>
+                            <li>okna od zachodu</li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+                <img src="w_pokoj3.jpg" alt="">
+
+            </div>
+            <!-- <hr style="margin-top: 40px;"> -->
+
+            <div class="pokoje-container flex-row">
+                <div class="left w100">
+                    <h3>Galeria zdjęć</h3>
+                    <div class="pokoje-mini flex-row">
+                        <img src="w_pokoj1.jpg" alt="">
+                        <img src="w_pokoj1.jpg" alt="">
+                        <img src="w_pokoj1.jpg" alt="">
+                        <img src="w_pokoj1.jpg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <hr style="margin: 40px 0px;">
+
+        </div>
+
+
+    </section>
+
+
+    <section class="lokalizacja topy-p flex-column" id="lokalizacja">
+        <div class="container">
+            <h2>Lokalizacja</h2>
+
+            <div class="container">
+                <div class="lokalizacja-container flex-row">
+                    <div class="lokalizacja-box">
+                        <h3>Jak do nas dotrzeć</h3>
+                        <p><b>Adres:</b> Gawrych-Ruda 35 16-402</p>
+                        <p><b>Z Suwałk: około 12km </b></p>
+                        <p><b>Z Augustowa: około 30km</b></p>
+                        <h3>Pobliskie punkty</h3>
+                        <p><b>Aldi</b> - około 10mk </p>
+
+                        
+                        
+                    </div>
+
+                    <div class="lokalizacja-box">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1657.
+    6032130026304!2d23.0009183661724!3d54.016886478789026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+    1!3m3!1m2!1s0x46e0ff0361d5fae5%3A0x652ef01ce65bb562!2sPokoje%20Wigierki!5e0!3m2!1spl!2spl!4v1755966388484!5m2!1spl!2spl"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="faq topy-p flex-column" id="faq">
+        <div class="container">
+            <h2>Często zadawane pytania</h2>
+            <!-- <div class="boki-p2"> -->
+            <div class="faq-container faq-grid">
+                <div>
+                    <h3>Czy można przyjechać z psem?</h3>
+                    <p>Tak, zwierzęta są mile widziane. Pobieramy dodatkową opłatę 30 zł/noc za zwierzę. Prosimy o
+                        wcześniejsze zgłoszenie przy rezerwacji.</p>
+                </div>
+                <div>
+                    <h3>Czy jest możliwość wędkowania?</h3>
+                    <p>Oczywiście! Jezioro jest bogate w ryby. Można wypożyczyć sprzęt wędkarski na miejscu lub
+                        przyjeżdżać z własnym.</p>
+                </div>
+                <div>
+                    <h3>O której godzinie można się zameldować?</h3>
+                    <p>Zameldowanie od godziny 15:00, wymeldowanie do 11:00. W uzasadnionych przypadkach możliwy
+                        wcześniejszy check-in.</p>
+                </div>
+                <div>
+                    <h3>Czy są dostępne kajaki?</h3>
+                    <p>Tak, mamy do wypożyczenia kajaki jednoosobowe i dwuosobowe. Koszt wynosi 20 zł/godzina.</p>
+                </div>
+                <div>
+                    <h3>Czy jest dostępny internet?</h3>
+                    <p>We wszystkich pokojach dostępne jest bezpłatne WiFi. Hasło otrzymają Państwo przy zameldowaniu.
+                    </p>
+                </div>
+                <div>
+                    <h3>Czy można anulować rezerwację?</h3>
+                    <p>Bezpłatna anulacja do 48 godzin przed przyjazdem. Przy późniejszej anulacji pobieramy opłatę w
+                        wysokości 50% wartości rezerwacji.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="kontakt flex-column center" id="kontakt">
+        <div class="home-image parallax-js"></div>
+        <div class="container">
+            <h2>Kontakt i rezerwacje</h2>
+            <div class="kontakt-container center flex-row">
+                <div class="kontakt-box flex-column">
+                    <div>
+                        <p>Telefon:</p> <a href="tel:+48 123 456 789">+48 123 456 789</a>
+                    </div>
+                    <div>
+                        <p>E-mail:</p> <a
+                            href="mailto:wiegierkisiematoemail@gmail.com">wiegierkisiematoemail@gmail.com</a>
+                    </div>
+                    <div>
+                        <p>Adres:</p><a>Gawrych Ruda 35, 16-402 Suwałki</a>
+                    </div>
+                    <div>
+                        <p>Godziny kontaktu:</p><a>10:00 - 20:00</a>
+                    </div>
+                </div>
+                <div class="kontakt-box2 flex-column">
+                    <p>Napisz do nas</p>
+                    <form>
+                        <div class="form-group">
+                            <input id="text" type="text" placeholder="Imię i nazwisko" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="email" type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="tel" type="tel" placeholder="Telefon">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Wiadomość" rows="4" required></textarea>
+                        </div>
+                        <button id="submit" type="submit" class="submit-button">Wyślij wiadomość</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="flex-column center">
+        <div class="footer-container flex-row">
+            <div class="footer-box flex-column">
+                <h2>Pokoje Wigierki - Gawrych-Ruda agroturystyka </h2>
+                <p>&copy; 2025 PokojeWigierki. Wszelkie prawa zastrzeżone.</p>
+
+                <p>Kontakt: +48 123 456 789 / wiegierkisiematoemail@gmail.com</p>
+            </div>
+
+            <div class="footer-box2 flex-row">
+                <a href="#home">Strona główna</a>
+                <a href="#onas">O nas</a>
+                <a href="#pokoje">Pokoje</a>
+                <a href="#lokalizacja">Lokalizacja</a>
+                <a href="#faq">FAQ</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+
+
+
+        window.addEventListener('scroll', function () {
+            const scrolled = window.scrollY;
+            document.querySelectorAll('.parallax-js').forEach(el => {
+                el.style.backgroundPositionY = (scrolled * 0.5) + 'px';
+            });
+        });
+
+        // inny scrypt
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === "#" + current) {
+                    link.classList.add("active");
+                }
+            });
+        });
+        //tu tez inny bedzie
+
+        function changeImage(img) {
+            let main = document.getElementById("main");
+
+            // najpierw wygaszamy obraz
+            main.classList.add("fade-out");
+
+            // po 400ms (czas na fade-out) zmieniamy źródło i robimy fade-in
+            setTimeout(() => {
+                main.src = img.src;
+                main.classList.remove("fade-out");
+            }, 400);
+        }
+        // function changeImage(img) {
+        //     let main = document.getElementById("main");
+        //     main.src = img.src;
+        // }
+        // i tu tez 
+
+
+    </script>
+</body>
+
+</html>
