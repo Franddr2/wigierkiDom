@@ -16,8 +16,8 @@
 <body>
     <nav class="navbar flex-row">
         <div class="nav-con flex-row">
-            <div class="con-logo">
-                <p>Wigierki</p>
+            <div class="nav-logo">
+                <a href="index.html">Wigierki</a>
             </div>
 
 
@@ -25,7 +25,7 @@
                 <a href="#home" class="nav-link">Strona główna</a>
                 <a href="#onas" class="nav-link">O nas</a>
                 <a href="#pokoje" class="nav-link">Pokoje</a>
-                <!-- <a href="#cennik" class="nav-link">Cennik</a> -->
+                <a href="zwiedzanie.html" class="nav-link">XXX</a>
                 <a href="#lokalizacja" class="nav-link">Lokalizacja</a>
                 <a href="#faq" class="nav-link">FAQ</a>
                 <a href="#kontakt" class="nav-link">Kontakt</a>
@@ -50,178 +50,244 @@
     </section>
 
     <section class="onas topy-p flex-column center" id="onas">
-        <div class="onas-container boki-m topy-m center">
-            <h2 class="">O nas</h2>
+        <div class="onas-container container boki-m topy-m center" style="max-width: 1500px;">
+            <h2 class="title">O nas</h2>
             <hr class="hr3">
             <div class="onas-split flex-row">
+                <div id="slider" class="slider">
+                    <img src="w_dom1.webp" class="slide" style="opacity: 1;">
+                    <img src="w_dom2.webp" class="slide" style="opacity: 0;">
+                    <img src="w_dom3.webp" class="slide" style="opacity: 0;">
+                    <img src="w_dom4.webp" class="slide" style="opacity: 0;">
+                </div>
+                <div class="lokalizacja-box">
+                    <p class="opis"> <span class="kropa"></span>Gawrych Ruda 35 - pokoje Wigierki - dom bezpośrednio
+                        położony nad jeziorem Wigry, we wsi Gawrych Ruda.</p>
+                    <p class="opis"><span class="kropa"></span>Gościom oferujemy trzy pokoje na wynajem, dla wszelkiej
+                        ilości
+                        odwiedzających,
+                        informacje poniżej. </p>
+                    <p class="opis"><span class="kropa"></span>Dom w sąsiedztwie kameralnego ogrodu,
+                        idealnego do złapania oddechu między wycieczkami rowerowymi bądź pływaniem w jeziorze, które
+                        umożliwia prywatna,
+                        urokliwa plaża wyłącznie dla naszych gości.
+                    </p>
+                    <div class="w100 pokoje-grid2">
+                        <div class="onas-grid-cont">
+                            <p class="staty">3</p>
+                            <p class="staty2">Pokoje</p>
+                        </div>
+                        <div class="onas-grid-cont">
+                            <p class="staty">12</p>
+                            <p class="staty2">Lat doświadczenia</p>
+                        </div>
+                        <div class="onas-grid-cont">
+                            <p class="staty">100%</p>
+                            <p class="staty2">Zadowolenia</p>
+                        </div>
+                        <div class="onas-grid-cont">
+                            <p class="staty">0m</p>
+                            <p class="staty2">Do jeziora</p>
+                        </div>
+                    </div>
 
-                <img src="w_dom2.webp" alt="">
-                <div>
-                    <p>Pokoje nad jeziorem Wigry we wsi Gawrych-Ruda.
-                        Oferujemy trzy pokoje: pokój numer jeden, pokój numer dwa i pokój numer trzy.</p>
-                    <p>Przed domem idealne miejsce do odpoczywania - ogródek z miejscem
-                        do leżakowania bądź odpoczynku w cieniu na łonie natury. Możliwość
-                        zrobienia grilla!</p>
-                    <p>Przed płotem nieopodal miejsce z małą plażą, mostem i dostępem do
-                        wody. Można też wypożyczyć kajak do pływania.</p>
+
+
                 </div>
             </div>
 
     </section>
     <section class="pokoje flex-column topy-p" id="pokoje">
-
         <!-- dom1 -->
-        <div class="container center nflex-column">
+        <div class="containerX center nflex-column">
             <h2 class="pokoje-title">Nasze pokoje</h2>
             <hr class="hr3">
             <!-- Tutaj można dać mini sekcje z tekstem -->
             <!-- tak by bylo rozpisane co jest w pokojach, co jest dostępne -->
             <!-- w cenie, za co trzeba dopłacić jeśli będzie ktoś chciał coś dodatkowo -->
             <div class="pokoje-container center flex-row">
-                <div>
-                    <!-- <h3 style="color: black;">Pokój pierwszy</h3> -->
-
+                <div class="cennik-cena">
                     <div class="cennik-box">
                         <h3>Pokój pierwszy</h3>
-
+                        <h4 class="h4">Przestronny pokój z widokiem na zachód</h4>
                         <div class="cennik-mini flex-row">
-                            <h3>220zł</h3>
+                            <h3>220-250zł</h3>
                             <h4>/noc</h4>
                         </div>
                         <ul>
-                            <li>4 osobowy</li>
-                            <li>łazienka</li>
-                            <li>kuchenka</li>
-                            <li>okna od wschodu</li>
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                4 osobowy<br>
+                                (2x 1os - łóżko + 1x 2os - kanapa)
+                            </li>
+
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                łazienka w pokoju
+                            </li>
+
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                <!-- kuchnia -->
+                                aneks kuchenny
+                            </li>
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                okna na zachód
+                            </li>
+
                         </ul>
-                    </div>
-
-
-
-
-                </div>
-                <img src="w_pokoj1.jpg" id="main" alt="">
-
-            </div>
-            <!-- <hr style="margin-top: 40px;"> -->
-
-            <div class="pokoje-container flex-row">
-                <div class="left w100">
-                    <h3>Galeria zdjęć</h3>
-                    <div class="pokoje-mini flex-row">
-                        <img src="w_pokoj1.jpg" alt="" onclick="changeImage(this)">
-                        <img src="w_pokoj2.jpg" alt="" onclick="changeImage(this)">
-                        <img src="w_pokoj3.jpg" alt="" onclick="changeImage(this)">
-                        <img src="w_pokoj4.jpg" alt="" onclick="changeImage(this)">
+                        <a href="#kontakt" class="hero-button">Zarezerwuj teraz</a>
                     </div>
                 </div>
-
-
-            </div>
-
-
-            <hr style="margin: 40px 0px;">
-
-
-            <!-- dom2 -->
-
-            <div class="pokoje-container center flex-row">
-                <div>
-                    <!-- <h3 style="color: black;">Pokój pierwszy</h3> -->
-
-                    <div class="cennik-box">
-                        <h3>Pokój drugi</h3>
-
-                        <div class="cennik-mini flex-row">
-                            <h3>200zł</h3>
-                            <h4>/noc</h4>
+                <div class="cennik-zdj">
+                    <img src="w_pokoj3.jpg" id="main1" alt="">
+                    <div class="center  w100">
+                        <h3>Galeria zdjęć</h3>
+                        <div class="pokoje-mini flex-row">
+                            <img src="w_pokoj3.jpg" alt="" onclick="changeImage(this)">
+                            <!-- <img src="w_pokoj2.jpg" alt="" onclick="changeImage(this)"> -->
+                            <img src="w_pokoj5.jpg" alt="" onclick="changeImage(this)">
+                            <img src="w_pokoj4.jpg" alt="" onclick="changeImage(this)">
                         </div>
-                        <ul>
-                            <li>3 osobowy max</li>
-                            <li>łazienka<br>
-                                (na korytarzu) </li>
-                            <li>kuchenka</li>
-                            <li>okna od strony<br>południowej</li>
-                        </ul>
                     </div>
-
-
-
-
                 </div>
-                <img src="w_pokoj4.jpg" alt="">
 
             </div>
-            <!-- <hr style="margin-top: 40px;"> -->
-
             <div class="pokoje-container flex-row">
-                <div class="left w100">
-                    <h3>Galeria zdjęć</h3>
-                    <div class="pokoje-mini flex-row">
-                        <img src="w_pokoj1.jpg" alt="">
-                        <img src="w_pokoj1.jpg" alt="">
-                        <img src="w_pokoj1.jpg" alt="">
-                        <img src="w_pokoj1.jpg" alt="">
-                    </div>
-                </div>
-
 
             </div>
-
-
             <hr style="margin: 40px 0px;">
 
-            <!-- dom3 -->
 
-            <div class="pokoje-container center flex-row">
-                <div>
-                    <!-- <h3 style="color: black;">Pokój pierwszy</h3> -->
-
-                    <div class="cennik-box">
-                        <h3>Pokój trzeci</h3>
-
-                        <div class="cennik-mini flex-row">
-                            <h3>220zł</h3>
-                            <h4>/noc</h4>
-                        </div>
-                        <ul>
-                            <li>4 osobowy</li>
-                            <li>łazienka</li>
-                            <li>kuchenka</li>
-                            <li>okna od zachodu</li>
-                        </ul>
-                    </div>
-
-
-
-
-                </div>
-                <img src="w_pokoj3.jpg" alt="">
-
-            </div>
-            <!-- <hr style="margin-top: 40px;"> -->
-
-            <div class="pokoje-container flex-row">
-                <div class="left w100">
-                    <h3>Galeria zdjęć</h3>
-                    <div class="pokoje-mini flex-row">
-                        <img src="w_pokoj1.jpg" alt="">
-                        <img src="w_pokoj1.jpg" alt="">
-                        <img src="w_pokoj1.jpg" alt="">
-                        <img src="w_pokoj1.jpg" alt="">
-                    </div>
-                </div>
-
-
-            </div>
-
-
-
-            <hr style="margin: 40px 0px;">
 
         </div>
 
 
+
+        <!-- dom2 -->
+        <div class="containerX center nflex-column">
+            <div class="pokoje-container center flex-row">
+                <div class="cennik-cena">
+                    <div class="cennik-box">
+                        <h3>Pokój drugi</h3>
+                        <h4 class="h4">Przestronny pokój z wpadającym słońcem</h4>
+                        <div class="cennik-mini flex-row">
+                            <h3>200-220zł</h3>
+                            <h4>/noc</h4>
+                        </div>
+                        <ul>
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                4 osobowy<br>
+                                (2x 2os. - kanapa)
+                            </li>
+
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                łazienka poza pokojem
+                            </li>
+
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                dostęp do kuchni na korytarzu
+                            </li>
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                okna od południa + balkon
+                            </li>
+
+                        </ul>
+                        <a href="#kontakt" class="hero-button">Zarezerwuj teraz</a>
+                    </div>
+                </div>
+                <div class="cennik-zdj">
+                    <img src="w_pokoj1.jpg" id="main2" alt="">
+                    <div class="center  w100">
+                        <h3>Galeria zdjęć</h3>
+                        <div class="pokoje-mini flex-row">
+                            <img src="w_pokoj1.jpg" alt="" onclick="changeImage2(this)">
+                            <!-- <img src="w_pokoj2.jpg" alt="" onclick="changeImage(this)"> -->
+                            <img src="w_pokoj6.jpg" alt="" onclick="changeImage2(this)">
+                            <img src="w_pokoj7.jpg" alt="" onclick="changeImage2(this)">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pokoje-container flex-row">
+
+            </div>
+            <hr style="margin: 40px 0px;">
+
+
+
+
+
+
+        </div>
+
+
+        <!-- dom3 -->
+        <div class="containerX center nflex-column">
+            <div class="pokoje-container center flex-row">
+                <div class="cennik-cena">
+                    <div class="cennik-box">
+                        <h3>Pokój trzeci</h3>
+                        <h4 class="h4">Przestronny pokój z widokiem na wschód</h4>
+                        <div class="cennik-mini flex-row">
+                            <h3>???zł</h3>
+                            <h4>/noc</h4>
+                        </div>
+                        <ul>
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                4 osobowy<br>
+                                (2x 1os - łóżko <br>+ 1x2os - kanapa)
+
+                            </li>
+
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                łazienka w pokoju
+                            </li>
+
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                aneks kuchenny
+                            </li>
+                            <li>
+                                <span class="feature-icon">✓</span>
+                                okna od wschodu
+                            </li>
+
+                        </ul>
+                        <a href="#kontakt" class="hero-button">Zarezerwuj teraz</a>
+                    </div>
+                </div>
+                <div class="cennik-zdj">
+                    <img src="w_pokojX.jpg" id="main3" alt="">
+                    <div class="center  w100">
+                        <h3>Galeria zdjęć</h3>
+                        <div class="pokoje-mini flex-row">
+                            <img src="w_pokojX.jpg" alt="" onclick="changeImage3(this)">
+                            <!-- <img src="w_pokoj2.jpg" alt="" onclick="changeImage(this)"> -->
+                            <!-- <img src="w_pokojX.jpg" alt="" onclick="changeImage3(this)"> -->
+                            <!-- <img src="w_pokoj4.jpg" alt="" onclick="changeImage3(this)"> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pokoje-container flex-row">
+
+            </div>
+            <hr style="margin: 40px 0px;">
+
+
+
+
+        </div>
     </section>
 
 
@@ -232,15 +298,71 @@
             <div class="container">
                 <div class="lokalizacja-container flex-row">
                     <div class="lokalizacja-box">
-                        <h3>Jak do nas dotrzeć</h3>
-                        <p><b>Adres:</b> Gawrych-Ruda 35 16-402</p>
-                        <p><b>Z Suwałk: około 12km </b></p>
-                        <p><b>Z Augustowa: około 30km</b></p>
-                        <h3>Pobliskie punkty</h3>
-                        <p><b>Aldi</b> - około 10mk </p>
+                        <div class="lok-box">
+                            <div class="flex-row location-wrap">
+                                <div class="location-icon-wrapper">
+                                    <div class="location-icon-wrapper">
+                                        <svg class="location-icon" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <h3 class="lokalizacja-title">Jak do nas dotrzeć</h3>
 
-                        
-                        
+                            </div>
+                            <div class="lok-mini-box">
+                                <div class="location-dot"></div>
+                                <div class="flex-column left">
+                                    <p>Adres</p>
+                                    <h4>Gawrych Ruda 35 16-402</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="lok-mini-box">
+                                <div class="location-dot"></div>
+                                <div class="flex-column left">
+                                    <p>Z Suwałk</p>
+                                    <h4>około 12km</h4>
+                                </div>
+                            </div>
+
+                            <div class="lok-mini-box">
+                                <div class="location-dot"></div>
+                                <div class="flex-column left">
+                                    <p>Z Augustowa</p>
+                                    <h4>około 30km</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lok-box">
+                            <div class="flex-row location-wrap">
+                                <div class="location-icon-wrapper">
+                                    <svg class="location-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                </div>
+                                <h3>Pobliskie punkty</h3>
+
+                            </div>
+
+                            <div class="lok-mini-box">
+                                <div class="location-dot"></div>
+                                <div class="flex-column left">
+                                    <p>Aldi</p>
+                                    <h4>około 10km</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
 
                     <div class="lokalizacja-box">
@@ -257,40 +379,208 @@
         </div>
     </section>
 
+    <section class="atrakcje flex-column center">
+        <div class="container">
+            <h2>Atrakcje</h2>
+            <hr class="hr3">
+
+            <div class="atrakcje-split flex-row">
+
+                <div class="atrakcje-box">
+                    <div class="atrakcje-mini">
+                        <div class="hero-image"></div>
+                        <div class="hero-overlay">
+                            <a class="bialas">📍 Klasztor nad Wigrami</a>
+                            <div class="flex-row"><a class="malas">10km</a><a class="malas">15min na miejscu</a></div>
+                        </div>
+                    </div>
+                    <!-- <div></div> -->
+                    <div>
+                        <p>Zabytkowy klasztor pustelników kamedulskich na
+                            półwyspie Wigierskiego Parku Narodowego. Piękna
+                            architektura barokowa.</p>
+                        <div class="flex-column atrakcje-box2">
+                            <div class="flex-row akt-min">
+                                <div>?</div> <a>szczegoly </a>
+                            </div>
+                            <div class="atrakcje-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Esse at sit nesciunt rerum, sapiente tenetur. Obcaecati,
+                                magni eos. Dolores quam deserunt enim repudiandae officiis
+                                accusamus quas qui doloribus in ratione.</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="atrakcje-box">
+                    <div class="atrakcje-mini">
+                        <div class="hero-image2"></div>
+                        <div class="hero-overlay">
+                            <a class="bialas">📍 Klasztor nad Wigrami</a>
+                            <div class="flex-row"><a class="malas">10km</a><a class="malas">15min na miejscu</a></div>
+                        </div>
+                    </div>
+                    <!-- <div></div> -->
+                    <div>
+                        <p>Zabytkowy klasztor pustelników kamedulskich na
+                            półwyspie Wigierskiego Parku Narodowego. Piękna
+                            architektura barokowa.</p>
+                        <div class="flex-column atrakcje-box2">
+                            <div class="flex-row akt-min">
+                                <div>?</div> <a>szczegoly </a>
+                            </div>
+                            <div class="atrakcje-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Esse at sit nesciunt rerum, sapiente tenetur. Obcaecati,
+                                magni eos. Dolores quam deserunt enim repudiandae officiis
+                                accusamus quas qui doloribus in ratione.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="atrakcje-box">
+                    <div class="atrakcje-mini">
+                        <div class="hero-image3"></div>
+                        <div class="hero-overlay">
+                            <a class="bialas">📍 Klasztor nad Wigrami</a>
+                            <div class="flex-row"><a class="malas">10km</a><a class="malas">15min na miejscu</a></div>
+                        </div>
+                    </div>
+                    <!-- <div></div> -->
+                    <div>
+                        <p>Zabytkowy klasztor pustelników kamedulskich na
+                            półwyspie Wigierskiego Parku Narodowego. Piękna
+                            architektura barokowa.</p>
+                        <div class="flex-column atrakcje-box2">
+                            <div class="flex-row akt-min">
+                                <div>?</div> <a>szczegoly </a>
+                            </div>
+                            <div class="atrakcje-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Esse at sit nesciunt rerum, sapiente tenetur. Obcaecati,
+                                magni eos. Dolores quam deserunt enim repudiandae officiis
+                                accusamus quas qui doloribus in ratione.</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
 
     <section class="faq topy-p flex-column" id="faq">
         <div class="container">
             <h2>Często zadawane pytania</h2>
             <!-- <div class="boki-p2"> -->
             <div class="faq-container faq-grid">
-                <div>
-                    <h3>Czy można przyjechać z psem?</h3>
-                    <p>Tak, zwierzęta są mile widziane. Pobieramy dodatkową opłatę 30 zł/noc za zwierzę. Prosimy o
-                        wcześniejsze zgłoszenie przy rezerwacji.</p>
+                <div class="faq-box flex-row">
+                    <div class="location-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-help-circle text-gray-900">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-column faq-align">
+
+                        <h3>Czy można przyjechać z psem?</h3>
+                        <p>Tak, zwierzęta są mile widziane. Pobieramy dodatkową opłatę 30 zł/noc za zwierzę. Prosimy o
+                            wcześniejsze zgłoszenie przy rezerwacji.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Czy jest możliwość wędkowania?</h3>
-                    <p>Oczywiście! Jezioro jest bogate w ryby. Można wypożyczyć sprzęt wędkarski na miejscu lub
-                        przyjeżdżać z własnym.</p>
+                <div class="faq-box flex-row ">
+                    <div class="location-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+
+                    <div class="flex-column faq-align">
+
+                        <h3>Czy jest możliwość wędkowania?</h3>
+                        <p>Oczywiście! Jezioro jest bogate w ryby. Można wypożyczyć sprzęt wędkarski na miejscu lub
+                            przyjeżdżać z własnym.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>O której godzinie można się zameldować?</h3>
-                    <p>Zameldowanie od godziny 15:00, wymeldowanie do 11:00. W uzasadnionych przypadkach możliwy
-                        wcześniejszy check-in.</p>
+                <div class="faq-box flex-row">
+                    <div class="location-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-help-circle text-gray-900">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+
+                    <div class="flex-column faq-align">
+
+                        <h3>O której godzinie można się zameldować?</h3>
+                        <p>Zameldowanie od godziny 15:00, wymeldowanie do 11:00. W uzasadnionych przypadkach możliwy
+                            wcześniejszy check-in.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Czy są dostępne kajaki?</h3>
-                    <p>Tak, mamy do wypożyczenia kajaki jednoosobowe i dwuosobowe. Koszt wynosi 20 zł/godzina.</p>
+                <div class="faq-box flex-row">
+                    <div class="location-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-help-circle text-gray-900">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+
+
+                    <div class="flex-column faq-align">
+
+                        <h3>Czy są dostępne kajaki?</h3>
+                        <p>Tak, mamy do wypożyczenia kajaki jednoosobowe i dwuosobowe. Koszt wynosi 20 zł/godzina.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Czy jest dostępny internet?</h3>
-                    <p>We wszystkich pokojach dostępne jest bezpłatne WiFi. Hasło otrzymają Państwo przy zameldowaniu.
-                    </p>
+                <div class="faq-box flex-row">
+                    <div class="location-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-help-circle text-gray-900">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+
+                    <div class="flex-column faq-align">
+                        <h3>Czy jest dostępny internet?</h3>
+                        <p>We wszystkich pokojach dostępne jest bezpłatne WiFi. Hasło otrzymają Państwo przy
+                            zameldowaniu.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h3>Czy można anulować rezerwację?</h3>
-                    <p>Bezpłatna anulacja do 48 godzin przed przyjazdem. Przy późniejszej anulacji pobieramy opłatę w
-                        wysokości 50% wartości rezerwacji.</p>
+                <div class="faq-box flex-row ">
+                    <div class="location-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-help-circle text-gray-900">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+
+                    <div class="flex-column faq-align">
+                        <h3>Czy można anulować rezerwację?</h3>
+                        <p>Bezpłatna anulacja do 48 godzin przed przyjazdem. Przy późniejszej anulacji pobieramy opłatę
+                            w
+                            wysokości 50% wartości rezerwacji.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -298,23 +588,59 @@
     </section>
 
     <section class="kontakt flex-column center" id="kontakt">
-        <div class="home-image parallax-js"></div>
         <div class="container">
             <h2>Kontakt i rezerwacje</h2>
             <div class="kontakt-container center flex-row">
                 <div class="kontakt-box flex-column">
-                    <div>
-                        <p>Telefon:</p> <a href="tel:+48 123 456 789">+48 123 456 789</a>
+                    <div class="kontakt-data flex-row">
+                        <div class="kontakt-icon-wrapper">
+                            <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p>Telefon:</p> <a href="tel:+48 123 456 789">+48 123 456 789</a>
+                        </div>
                     </div>
-                    <div>
-                        <p>E-mail:</p> <a
-                            href="mailto:wiegierkisiematoemail@gmail.com">wiegierkisiematoemail@gmail.com</a>
+
+                    <div class="kontakt-data flex-row">
+                        <div class="kontakt-icon-wrapper">
+                            <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p>E-mail:</p> <a
+                                href="mailto:wiegierkisiematoemail@gmail.com">wiegierkisiematoemail@gmail.com</a>
+                        </div>
                     </div>
-                    <div>
-                        <p>Adres:</p><a>Gawrych Ruda 35, 16-402 Suwałki</a>
+
+                    <div class="kontakt-data flex-row">
+                        <div class="kontakt-icon-wrapper">
+                            <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p>Adres:</p><a style="color: rgb(83, 83, 83);">Gawrych Ruda 35, 16-402 Suwałki</a>
+                        </div>
                     </div>
-                    <div>
-                        <p>Godziny kontaktu:</p><a>10:00 - 20:00</a>
+
+                    <div class="kontakt-data flex-row">
+                        <div class="kontakt-icon-wrapper">
+                            <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p>Godziny kontaktu:</p><a style="color: rgb(83, 83, 83);">10:00 - 20:00</a>
+                        </div>
                     </div>
                 </div>
                 <div class="kontakt-box2 flex-column">
@@ -400,15 +726,39 @@
         //tu tez inny bedzie
 
         function changeImage(img) {
-            let main = document.getElementById("main");
+            let main = document.getElementById("main1");
+            //let main2 = document.getElementById("main2");
+            //let main3 = document.getElementById("main3");
 
             // najpierw wygaszamy obraz
             main.classList.add("fade-out");
+            // main2.classList.add("fade-out");
+            // main3.classList.add("fade-out");
 
             // po 400ms (czas na fade-out) zmieniamy źródło i robimy fade-in
             setTimeout(() => {
                 main.src = img.src;
                 main.classList.remove("fade-out");
+
+
+            }, 400);
+        }
+
+        function changeImage2(img) {
+            let main2 = document.getElementById("main2");
+            main2.classList.add("fade-out");
+            setTimeout(() => {
+                main2.src = img.src;
+                main2.classList.remove("fade-out");
+            }, 400);
+        }
+
+        function changeImage3(img) {
+            let main3 = document.getElementById("main3");
+            main3.classList.add("fade-out");
+            setTimeout(() => {
+                main3.src = img.src;
+                main3.classList.remove("fade-out");
             }, 400);
         }
         // function changeImage(img) {
@@ -416,7 +766,24 @@
         //     main.src = img.src;
         // }
         // i tu tez 
+        const slides = document.querySelectorAll('.slide');
+        let current = 0;
+        const total = slides.length;
 
+        setInterval(() => {
+            slides[current].style.opacity = 0; // zniknij obecne
+            current = (current + 1) % total;    // następne
+            slides[current].style.opacity = 1;  // pokaż następne
+        }, 4000); // zmiana co 4 sekundy
+
+
+
+        // document.querySelectorAll(".klikDiv").forEach(function (div) {
+        //     div.style.cursor = "pointer";
+        //     div.addEventListener("click", function () {
+        //         window.location.href = "https://grynmed.pl/oferta.html";
+        //     });
+        // });
 
     </script>
 </body>
